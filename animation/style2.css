@@ -1,0 +1,64 @@
+#box{
+    height: 120px;
+    width: 200px;
+    position: relative;
+    background-color: aqua;
+    animation-name: verma;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:alternate;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+   
+}
+
+@keyframes verma {
+    0%{
+        top: 0px;
+        left: 100px;
+        left: 1000px;
+    }
+    25%{
+background-color: green;left: 20px;
+
+transform: rotate(200deg);
+    }
+    50%{
+top: 300px;
+left: 40px;
+transform: scale(1.5,1.1);
+
+    }
+    70%{
+border-radius: 80%;
+left: 600px;
+background-color:  pink;
+    }
+    80%{
+        width: 400px;
+        height: 452px;
+        shadow: 30px;
+        left: 500px;
+        background-color: rgb(226, 109, 109);
+
+
+    }
+    100%{
+top: 0px;
+background-color: red;
+left: 0px;
+text-align: center;
+display: none;
+    }
+
+}
+#container{
+    height: 120px;
+    background-color: lightpink;
+}
+body{
+    background-color: lavender;
+    height: 200px;
+
+}

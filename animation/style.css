@@ -1,0 +1,37 @@
+#box{
+    height: 120px;
+    width: 200px;
+    position: relative;
+    background-color: aqua;
+    animation-name: vikas;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:alternate;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+   
+}
+@keyframes vikas {
+    from{
+width: 200px;
+
+background-color: orange;
+    }
+
+    to{
+width: 400px;
+
+background-color: red;
+    }
+}
+
+#container{
+    height: 120px;
+    background-color: lightpink;
+}
+body{
+    background-color: lavender;
+    height: 200px;
+
+}
